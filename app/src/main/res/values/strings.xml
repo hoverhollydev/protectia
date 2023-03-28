@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">PROTECTia</string>
+    <string name="app_name1">PROTECT</string>
+    <string name="app_name2">ia</string>
+    <string name="app_name_descripcion">Aplicación PROTECTia</string>
+    <string name="ppl_descripcion">Inteligencia Operativa Aplicada</string>
+    <string name="str_activar_gps">Active el GPS en precisión alta.</string>
+
+    <!-- Menu -->
+    <string name="str_titulo">ProtectIA</string>
+    <string name="str_inicio">Inicio</string>
+    <string name="str_ajustes">Ajustes</string>
+    <string name="str_verificacion_rostro">Verificación</string>
+    <string name="str_blink_texto">Ocr ID</string>
+    <string name="str_blink_image">Ocr Captura ID</string>
+    <string name="str_acerca_de">Acerca de</string>
+    <string name="str_sincronizar_Bluetooth">Sincronizar Bluetooth</string>
+    <string name="str_navegacion">Navegación</string>
+    <string name="str_version">1.0.24</string>
+    <string name="str_version_name">SVD 1.0.24.apk</string>
+    <string name="str_version_text">Versión 1.0.24</string>
+    <string name="str_anio">Año 2021</string>
+    <string name="str_by">© Powered by</string>
+    <string name="str_desarollador">Wellscom</string>
+    <string name="str_salir_app">Presione una vez más para salir!</string>
+    <string name="str_cerrar_sesion">Cerrar sesión</string>
+    <string name="str_asistente">Asistente</string>
+    <string name="str_modo">Modo video</string>
+    <string name="str_reconectar">Reconectar</string>
+    <string name="str_salir">Salir</string>
+    <string name="str_localizacion">Localización</string>
+    <string name="str_register_location">Verificación</string>=
+    <string name="str_register_location_qr">Verificación QR</string>
+    <string name="str_clean_chat">Vaciar chat</string>
+    <string name="str_url_stream">Transmisión</string>
+
+    <!-- Alert Dialog msj -->
+    <string name="str_alerta">Alerta!</string>
+    <string name="str_alerta_enviada">Video en vivo, alerta enviada</string>
+    <string name="str_sistema">S i s t e m a</string>
+    <string name="str_sesion_cerrada_apk">La aplicación se va a reiniciar, se requiere instalar una nueva actualización de ATM app!</string>
+    <string name="str_cerrando_sesion">Cerrando sesión, por favor espere...</string>
+    <string name="str_no_conexion_datos">No existe conexión de Internet o VPN o hay un problema con el servidor, por favor revise sus conexiones!</string>
+    <string name="str_panico">En 3 segundos se enviará la alerta de pánico...</string>
+
+    <!-- Iniciar Sesión -->
+    <string name="str_iniciar">Iniciar</string>
+    <string name="str_cargar_servicios">Cargando servicios...</string>
+    <string name="str_conectando">Conectando...</string>
+    <string name="str_no_conexion_servidor">No existe conexión con el servidor!</string>
+    <string name="str_usuario">Usuario</string>
+    <string name="str_contraseña">Contraseña</string>
+    <string name="str_iniciando_sesion">Iniciando Sesión</string>
+    <string name="str_esperar">Por favor espere...</string>
+    <string name="str_no_usuario">Usuario no registrado en el sistema.</string>
+    <string name="str_usuario_incorrecto">Usuario/Contraseña incorrectos.</string>
+
+
+    <!-- Validaciones -->
+    <string name="str_campo_obligatorio">Campo requerido!</string>
+    <string name="str_sin_grupo">Usuario sin grupos disponibles</string>
+    <string name="str_error">Error</string>
+    <string name="err_license">Licencia ocr inválida</string>
+    <string name="autofocus_fail">La cámara no puede enfocar. Intente escanear con mejor luz</string>
+    <string name="str_faltan_campos">Faltan campos por llenar!</string>
+
+    <!-- GoogleMaps -->
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyD6w_SjRCRjymWc4G5-ec8iARyYW-PvF0Q
+    </string>
+
+    <!-- Camera2 -->
+    <string name="record">Grabar</string>
+    <string name="stop">Parar</string>
+    <string name="permission_request">Se requiere permisos de Camara y Audio.</string>
+    <string name="camera_error">Este dispositivo no soporta Camera2 API.</string>
+    <string name="album_name">fotosGeoservichat</string>
+
+    <string name="sin_conexion">No estás conectado a Internet. Por favor, revise la conexión.</string>
+
+    <string name="picture">Capturar</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+
+    <string name="str_ocr_auto">Registro Ocr</string>
+    <string name="str_ocr_manual">Registro Manual</string>
+    <string name="str_qr">Virtual ID</string>
+    <string name="str_ok">ok</string>
+
+    <!-- Mapbox -->
+    <string name="access_token" translatable="false">pk.eyJ1IjoiaG92ZXJob2xseSIsImEiOiJjanZ5OTg5em0wZGk2NDh0OGl6N2Y1ZDFnIn0.R_wxUlYf24uSbgpjOJvYDQ</string>
+    <string name="new_location">%Nueva localización</string>
+    <string name="user_location_permission_explanation">Esta aplicación necesita permisos de ubicación para mostrar su funcionalidad.</string>
+    <string name="user_location_permission_not_granted">No has concedido permisos de ubicación.</string>
+
+    <!-- rtsp -->
+    <string name="rtsp_streamer">RTSP</string>
+    <string name="hint_rtsp">rtsp://url:puerto/live/id</string>
+    <string name="start_button">Iniciar transmisión</string>
+    <string name="stop_button">Detener transmisión</string>
+    <string name="switch_camera_button">Cambiar de camara</string>
+    <string name="start_record">Iniciar grabación</string>
+    <string name="stop_record">Detener grabación</string>
+
+    <!-- rtmp -->
+    <string name="rtmp_streamer">Custom RTMP</string>
+    <string name="hint_rtmp">rtmp://url:puerto/live/id</string>
+    <string name="texture_mode_rtmp">Modo Textura RTMP</string>
+
+    <!--menu-->
+    <string name="microphone">Micrófono</string>
+
+    <!--drawer-->
+    <string name="drawer_title">Opciones</string>
+    <string name="protocols">Protocolo</string>
+    <string name="tcp">TCP</string>
+    <string name="udp">UDP</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="resolution">Resolución</string>
+    <string name="video_bitrate">Velocidad de bits (sobre la marcha)</string>
+    <string name="audio_bitrate">Velocidad de bits</string>
+    <string name="fps">FPS</string>
+    <string name="orientation">Orientación</string>
+    <string name="hardware_rotation">Rotación de hardware</string>
+    <string name="samplerate">Frecuencia de muestreo</string>
+    <string name="channel">Canal</string>
+    <string name="stereo">Stereo</string>
+    <string name="mono">Mono</string>
+    <string name="echo_canceler">Cancelador de eco</string>
+    <string name="camera">Cámara</string>
+    <string name="wowza_auth">Autentificación</string>
+    <string name="wowza_user">Usuario</string>
+    <string name="wowza_password">Clave</string>
+    <string name="noise_suppressor">Supresor de ruido</string>
+
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/contentWithBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:id="@+id/bot_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:layout_gravity="top">
+
+            <ImageView
+                android:id="@+id/img_bot_user"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignBottom="@+id/grupo_nombre"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:src="@drawable/mr_rb" />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gif_espera"
+                android:layout_width="48dp"
+                android:layout_height="30dp"
+                android:src="@drawable/dude6"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/contentBurbuja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="7"
+            android:layout_marginTop="12dp">
+
+            <ImageView
+                android:id="@+id/pico_burbuja"
+                android:layout_marginTop="-7.0dp"
+                android:layout_width="5dp"
+                android:layout_height="10dp"
+                android:layout_gravity="start"
+                android:scaleType="centerCrop"
+                android:background="@drawable/coners2"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview_root"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/burbuja_chat2"
+                app:cardUseCompatPadding="true"
+                app:cardPreventCornerOverlap="false">
+
+
+                <LinearLayout
+                    android:id="@+id/contentItems"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="0.5dp"
+                    android:paddingRight="0.5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/txtName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="El poder"
+                        android:textColor="@color/blue"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+                    <FrameLayout
+                        android:id="@+id/frame_video"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <!-- This for video thumbnail-->
+                        <ImageView
+                            android:id="@+id/preview_file"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:paddingTop="1dp"
+                            android:scaleType="centerCrop"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="false"/>
+
+                        <!-- This for video icon in center-->
+                        <ImageView
+                            android:id="@+id/play_video"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/ic_play_video"
+                            android:layout_gravity="center"
+                            />
+
+                    </FrameLayout>
+                    <TextView
+                        android:id="@+id/txtMessage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black_icon"
+                        android:textIsSelectable="true"
+                        android:textSize="16dp"
+                        android:text="How are you doing? This is a long message that should probably wrap." />
+                    <TextView
+                        android:id="@+id/txtInfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:textSize="9sp"
+                        android:text="16:49:11 6/may/2019"
+                        android:layout_marginTop="0.5dp"
+                        android:textColor="@color/cardview_dark_background" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bot_animation1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:orientation="vertical"
+                android:layout_gravity="top">
+
+                <ImageView
+                    android:id="@+id/img_user"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:padding="3dp"
+                    android:layout_alignBottom="@+id/grupo_nombre"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:src="@drawable/icon_user"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

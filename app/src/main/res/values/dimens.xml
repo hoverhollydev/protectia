@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Tamaños de ProgressBar -->
+    <dimen name="margen_progressbar">40dp</dimen>
+
+    <!-- Tool bar -->
+    <dimen name="default_elevation">8dp</dimen>
+
+    <!-- Drawer Navigation Material Desing -->
+    <dimen name="header_left_padding">16dp</dimen>
+    <dimen name="header_height">192dp</dimen>
+    <dimen name="perfil_image_size">64dp</dimen>
+
+    <!-- Button Flotante Dynamic -->
+    <dimen name="fab_margin">10dp</dimen>
+    <dimen name="fab_margin1">4dp</dimen>
+
+    <!-- Reconociento de rostro -->
+    <dimen name="view_margin">5dp</dimen>
+
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        mapbox:layout_constraintTop_toTopOf="parent"
+        mapbox:layout_constraintRight_toRightOf="parent"
+        mapbox:layout_constraintLeft_toLeftOf="parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_area"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        mapbox:layout_constraintTop_toBottomOf="@+id/toolbar"
+        mapbox:layout_constraintBottom_toBottomOf="parent"
+        mapbox:layout_constraintLeft_toLeftOf="parent"
+        mapbox:layout_constraintRight_toRightOf="parent"
+        >
+        <com.mapbox.mapboxsdk.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            mapbox:layout_constraintBottom_toBottomOf="parent"
+            mapbox:layout_constraintEnd_toEndOf="parent"
+            mapbox:layout_constraintStart_toStartOf="parent"
+            mapbox:layout_constraintTop_toTopOf="parent"
+            mapbox:mapbox_cameraTargetLat="-2.2169836"
+            mapbox:mapbox_cameraTargetLng="-79.8895437"
+            mapbox:mapbox_cameraTilt="60"
+            mapbox:mapbox_cameraZoom="14"/>
+
+        <RelativeLayout
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="center"
+            mapbox:layout_constraintBottom_toBottomOf="parent"
+            android:background="@color/black_icon">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:backgroundTint="@color/purpura"
+                    android:background="@drawable/ic_user_ptt_2"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="0dp"
+                    android:layout_gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/user_map"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Usuario"
+                        android:textColor="@color/purpura"
+                        android:textStyle="bold"
+                        android:textSize="11sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="0.5dp"
+                        />
+                    <TextView
+                        android:id="@+id/user_map3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lat-Lon"
+                        android:textColor="@color/purpura"
+                        android:textStyle="bold"
+                        android:textSize="11sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="0.5dp"
+                        />
+                    <TextView
+                        android:id="@+id/user_map1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Última conexión"
+                        android:textColor="@color/purpura"
+                        android:textStyle="bold"
+                        android:textSize="11sp"
+                        android:layout_marginLeft="5dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/myLocationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginBottom="150dp"
+            android:layout_marginRight="10.8dp"
+            android:src="@android:drawable/ic_menu_mylocation"
+            app:borderWidth="0dp"
+            app:fabCustomSize="40dp"
+            app:maxImageSize="28dp"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:backgroundTint="@color/geoservicar"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/myAllLocationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginRight="10.8dp"
+            android:layout_marginBottom="85dp"
+            android:src="@android:drawable/ic_dialog_map"
+            app:fabCustomSize="40dp"
+            app:maxImageSize="19dp"
+            app:borderWidth="0dp"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:backgroundTint="@color/geoservicar"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/urlStream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:src="@drawable/ic_play_video"
+            app:maxImageSize="56dp"
+            app:borderWidth="0dp"
+            app:elevation="0dp"
+            app:pressedTranslationZ="12dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:backgroundTint="@color/geoservicar"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

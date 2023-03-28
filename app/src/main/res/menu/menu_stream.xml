@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:id="@+id/cam1"
+        android:launchMode="singleTop"
+        android:title="Cam1 OCRW Interior"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/cam2"
+        android:launchMode="singleTop"
+        android:title="Cam2 OCRW Exterior"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/background_spinner.xml" value="0.1453125" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/burbuja_chat1.xml" value="0.1453125" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/burbuja_chat2.xml" value="0.1515625" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/burbuja_chat3.xml" value="0.1515625" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/button_background.xml" value="0.1453125" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/circle.xml" value="0.1453125" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/circle1.xml" value="0.1453125" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/circle_icon_group.xml" value="0.1453125" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/circle_ptt_active.xml" value="0.1453125" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/circle_ptt_inactive.xml" value="0.1453125" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/coners.xml" value="0.1453125" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/coners2.xml" value="0.1453125" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/coners3.xml" value="0.1515625" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/ic_camera_change.xml" value="0.1453125" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/ic_record.xml" value="0.1453125" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/drawable/ic_stop.xml" value="0.1453125" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/activity_chat.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/activity_custom.xml" value="0.192" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/activity_exoplayer2.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/activity_lista_usuarios.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/activity_location.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/activity_login.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/activity_main.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/activity_main_content.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/activity_settings.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/activity_splash.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/activity_streaming.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/activity_texture_mode.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/custom_menu_item.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/dialog_chat_multimedia.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/edit_text_auth.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/edit_text_int.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/fragment_historial_fragment.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/fragmento_usuario.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/list_item_grupos.xml" value="0.192" />
+        <entry key="..\:/Users/Hoverholly/Documents/AndroidProjects/data4decision/svd_basic_plus/app/src/main/res/layout/list_item_usuarios.xml" value="0.12916666666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

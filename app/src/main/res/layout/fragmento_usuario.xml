@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_10"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/ic_signal"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=". . ."
+            android:id="@+id/txt_senial"
+            android:textColor="@color/white"
+            android:textSize="12dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=". . ."
+            android:id="@+id/txt_ping"
+            android:layout_marginTop="1dp"
+            android:textColor="@color/white"
+            android:textSize="11dp"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        >
+
+        <ImageView
+            android:id="@+id/img_chat"
+            android:layout_marginRight="5dp"
+            android:layout_width="30dp"
+            android:layout_gravity="center"
+            android:layout_height="30dp"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/chat_on"/>
+
+        <ImageView
+            android:id="@+id/img_location"
+            android:layout_marginRight="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="22dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/ic_location"/>
+
+        <ImageView
+            android:id="@+id/img_usu_todos"
+            android:layout_marginRight="5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="22dp"
+            android:backgroundTint="@color/white"
+            android:background="@drawable/ic_users_state"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="left"
+        android:layout_alignParentBottom="true"
+        >
+
+    <TextView
+        android:id="@+id/txt_tiempo_reservado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text=""
+        android:layout_marginBottom="0dp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/img_ptt_reservado"
+        android:layout_marginRight="5dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/ptt_reservado"/>
+    </LinearLayout>
+
+</RelativeLayout>
